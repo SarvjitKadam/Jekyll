@@ -14,22 +14,6 @@ $container-max-width: 1000px;
   }
 }
 
-@import "rouge-base16-dark";
-@import "default_colors";
-
-$body-background: $cod-grey !default;
-$body-foreground: $gallery !default;
-$header: $conifer !default;
-$blockquote-color: $silver-chalice !default;
-$blockquote-border: $dove-grey !default;
-$container-max-width: 1000px;
-
-@mixin media-max-width($max-width) {
-  @media (max-width: $max-width) {
-      @content;
-  }
-}
-
 body {
     background: -moz-linear-gradient(45deg, #02e1ba 0%, #26c9f2 29%, #d911f2 66%, #ffa079 100%);
     background: -webkit-linear-gradient(45deg, #02e1ba 0%,#26c9f2 29%,#d911f2 66%,#ffa079 100%);
@@ -138,6 +122,7 @@ body::after {
   .st13{opacity:0.2;}
   .st14{clip-path:url(#SVGID_16_);}
   .st15{opacity:0.3;fill:#FFFFFF;enable-background:new    ;}
+
 
 /* General & 'Reset' Stuff */
 
