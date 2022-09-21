@@ -1,2 +1,2 @@
 Hi There,
-USe this Website Carefully.
+Use this Website Carefully.
